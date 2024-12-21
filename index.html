@@ -1,4 +1,5 @@
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
          body {
             font-family: Arial, sans-serif;
@@ -8,7 +9,43 @@
             padding-left: 10%;
             padding-right: 10%;
             font-family: 'Work Sans', sans-serif;
-
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 40px;
+        }
+        h2 {
+            font-size: 1.5em;
+            margin-top: 40px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        a {
+        color: #428bca;
+        }
+        .icons {
+            margin-top: 40px;
+        }
+        .icons a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        .fab {
+            font-size: 24px; /* Adjust the size as needed */
+        }
+        .fas{
+            font-size: 24px;
         }
     </style>
 
@@ -17,17 +54,21 @@
 
 <body>
     <h1> Ryan Le </h1>
-    <p> Hi my name is Ryan! I am a third-year undergraduate at Stanford University studying computer science 
-        (graduating in 2026 with both a B.S (Systems track) and M.S. (AI track) as part of Stanford's coterminal program). 
+    <img src="ProfilePic.jpg" alt="Profile Pic">
+    <p> Hi my name is Ryan! I am a third-year undergraduate at Stanford University studying computer science. I was recently accepted 
+        into Stanford's <a href="https://www.cs.stanford.edu/masters/computer-science-coterm-program-overview">coterminal program </a> 
+        where I will be graduating in 2026 with both a M.S (AI) and B.S (Systems) in computer science. 
         I am broadly interested in distributed systems, low-latency programming, machine learning, and software engineering. 
-        Currently, I am working on FlexFlow with the Stanford Compiler Group under Alex Aiken. </p>
+        Currently, I am working on <a href="https://flexflow.ai/"> FlexFlow</a> with the Stanford Compiler Group under <a href="https://theory.stanford.edu/~aiken/"> Alex Aiken</a>. </p>
+    
+    <p> My resume is available <a href="RyanLe_Resume.pdf">here</a></p>
     <h2> What I have worked on </h2>
     <ul>
-        <li> Developing a runtime system for executing distributed training in PyTorch as part of Stanford Compilers Group (FlexFlow) </li>
-        <li> Engineered an automation system to streamline configuration updates for Amazon's central route estimation machine learning model</li>
-        <li> Served as a teaching assistant for Stanford's data structures and algorithms course </li>
-        <li> Created, debugged, and documented SQL queries for Flowers Foods & Subsidiaries delivery, customer, and item backend</li>
-        <li> iOS app for tinnitus sufferers (6k downloads) called MyTinnitus </li>
+        <li> Developing a runtime system for executing distributed training in PyTorch as part of <a href="https://flexflow.ai/"> Stanford Compiler Group (FlexFlow)</a> </li>
+        <li> Engineered an automation system to streamline configuration updates for <a href= "https://www.aboutamazon.com/about-us">Amazon's</a> central route estimation machine learning model</li>
+        <li> Served as a teaching assistant for Stanford's data structures and algorithms course (<a href= "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1252/about_staff">CS106b</a>)</li>
+        <li> Created, debugged, and documented SQL queries for <a href="https://flowersfoods.com/about-flowers/"> Flowers Foods & Subsidiaries' </a> delivery, customer, and item backend</li>
+        <li> iOS app for tinnitus sufferers (6k downloads) called <a href="https://github.com/RyanLe2003/MyTinnitus-App-2021?tab=readme-ov-file">MyTinnitus</a> </li>
     </ul>
     <h2> Selected coursework @ Stanford </h2>
     <ul>
@@ -47,5 +88,11 @@
         <li> Math 104: Applied Matrix Theory </li>
         <li> Math 51: Linear Algebra, Multivariable Calculus </li>
     </ul>
+
+    <div class="icons" style="text-align: center; margin-top: 60px;">
+        <a href="mailto:ryanmtle@stanford.edu"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/ryanmtle/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/ryanle2003" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
     
 </body>
